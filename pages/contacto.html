@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1> Arq. Sebastian Duabyakosky</h1> 
+        <nav id="navHeader">
+            <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Nosotros</a></li>    
+            <li><a href="./servicios.html">Servicios</a></li>  
+            <li><a href="./galeria.html">Galeria</a></li>  
+            <li><a href="./contacto.html">Contacto</a></li>      
+            </ul>
+        </nav>
+    </header>
+    <form action="" method="post">
+        <p> Ingresa tus datos si queres que te contactemos</p>
+        <fieldset>
+            <legend align="center">Informacion de contacto</legend>
+            <br>
+            <br>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido">
+            </div>    
+            <br>
+            <br>
+            <div>  
+                 <label for="dni">DNI</label>
+                 <input type="number" id="dni">
+                 <label for="mail">Correo electronico</label>
+                 <input type="email" id="mail">      
+            </div> 
+            <br>
+            <br>
+            <div>
+                <label for="telefonoprincipal">Telefono principal</label>
+                <input type="number" id=" telefonoprincipal">
+                <label for="telefonosecundario">Telefono secundario</label>
+                <input type="number" id="telefonosecundario">
+            </div>    
+            <br>
+            <br>
+            <P>Necesito asesoramiento referente a:</P>
+            <br>
+            <br>
+            <input type="checkbox" name="construccion" id="construccion">Construccion
+            <input type="checkbox" name="diseño" id="diseño">Diseño
+            <input type="checkbox" name="asesoramientotramites" id="asesoramientotramites">Tramites
+            <input type="checkbox" name="otros" id="otros">Otros
+            <br>
+            <br>
+            <h5>Prefiero ser contactado por:</h5>
+            <br>
+            <div>
+                 <input type="radio" name="contacto" value="correo"> Correo
+            </div>
+            <div>
+                <input type="radio" name="contacto" value="telefonico"> Teléfono
+            </div>
+            <br>
+            </fieldset>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10">Ingrese sus comentarios acerca de porque desea ser contactado</textarea>
+            <input id="enviar" type="submit" value="enviarformulario"/>
+            <input id="limpiar" type="reset" value="limpiarformulario"/>
+    </form>
+</body>
+<br>
+<br>
+<footer>
+    <br>
+    <div>
+        <a class= "boton" href="../index.html"> Ir a página de inicio</a>
+    </div>
+    <br>
+    <div>
+     <a class="botonenlaces" href="mailto:arqduabya@gmail.com"><img src="../assets/imagenes/gmail.png" alt="Correo" width="20"></a>   
+     <a class="botonenlaces" href="https://www.facebook.com/arqduabya.duabya"><img src="../assets/imagenes/facebook.png" alt="Facebook" width="20"></a>
+     <a class="botonenlaces" href="https://www.instagram.com/arq.duabya/"><img src="../assets/imagenes/instagram.png" alt="instagram" width="20"></a>
+    </div> 
+ </footer>
+</html>
